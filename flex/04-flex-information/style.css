@@ -13,6 +13,7 @@ img {
 }
 
 /* do not edit this footer */
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -20,7 +21,33 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;;
+  align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  gap: 52px;
+}
+
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
 }
